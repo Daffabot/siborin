@@ -1,0 +1,8 @@
+sudo chown www-data:www-data /var/www/html/siborin/img
+sudo chmod 755 /var/www/html/siborin/img
+sudo chown www-data:www-data /var/www/html/siborin/videos
+sudo chmod 755 /var/www/html/siborin/videos
+sudo chown www-data:www-data /var/www/html/siborin/files
+sudo chmod 755 /var/www/html/siborin/files
+
+sudo ufw allow 80/tcp
